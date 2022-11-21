@@ -1,0 +1,328 @@
+@media all and (max-width:1200px) {
+    body {
+        background-image: url("https://wallpaperaccess.com/full/8058208.jpg");
+        background-size: 150%;
+    }
+    .container {
+        max-width: 100%;
+        width: 95%;
+        margin: 0 15px;
+    }
+    .main {
+        margin-top: 190px;
+    }
+    .contents {
+        color:rgb(250, 250, 250);
+        text-align: center;
+        background-color: #d3d3d3;
+        width: 400px;
+        height: 200px;
+        border: 4px solid #666969;
+        border-radius: 50px;
+        box-shadow: 
+        0 0 5px #3fefff,
+        0 0 25px #3fefff,
+        0 0 50px #3fefff,
+        0 0 100px #3fefff;
+        margin: auto;
+        display: block;
+        padding: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .contents:hover {
+        text-shadow:
+        0 0 5px #1d1d1d,
+        0 0 0 #1d1d1d,
+        0 0 0 #1d1d1d,
+        0 0 0 #1d1d1d;
+    }
+    .kata {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        overflow: auto;
+    }
+    .contents h1 {
+        font-size:32px;
+    }
+    .contents h3 {
+        font-size: 17px;
+    }
+    .contents h4 {
+        font-size: 14px;
+    }
+    .bawah {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tomb button {
+        font-style: inherit;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: rgb(138, 255, 239);
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px;
+        width: 200px;
+        transition: 0.5s;
+    }
+    button:hover {
+        color: black;
+        background-color: aquamarine;
+        border-color: aquamarine;
+        box-shadow: 
+        0 0 5px aquamarine,
+        0 0 25px aquamarine,
+        0 0 50px aquamarine,
+        0 0 100px aquamarine;
+    }
+}
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+    body {
+        background-image: url("https://wallpaperaccess.com/full/8058208.jpg");
+        background-size: 150%;
+    }
+    .container {
+        max-width: 100%;
+        width: 93%;
+        margin: 0 15px;
+    }
+    .main {
+        margin-top: 190px;
+    }
+    .contents {
+        color:rgb(250, 250, 250);
+        text-align: center;
+        background-color: #d3d3d3;
+        width: 400px;
+        height: 200px;
+        border: 4px solid #666969;
+        border-radius: 50px;
+        box-shadow: 
+        0 0 5px #54ff79,
+        0 0 25px #54ff79,
+        0 0 50px #54ff79,
+        0 0 100px #54ff79;
+        margin: auto;
+        display: block;
+        padding: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .contents:hover {
+        text-shadow:
+        0 0 5px #1d1d1d,
+        0 0 0 #1d1d1d,
+        0 0 0 #1d1d1d,
+        0 0 0 #1d1d1d;
+    }
+    .kata {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        overflow: auto;
+    }
+    .contents h1 {
+        font-size:32px;
+    }
+    .contents h3 {
+        font-size: 17px;
+    }
+    .contents h4 {
+        font-size: 14px;
+    }
+    .bawah {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tomb button {
+        font-style: inherit;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: rgb(138, 255, 239);
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px;
+        width: 200px;
+        transition: 0.5s;
+    }
+    button:hover {
+        color: black;
+        background-color: rgb(119, 160, 146);
+        border-color: rgb(119, 160, 146);
+        box-shadow: 
+        0 0 5px rgb(119, 160, 146),
+        0 0 25px rgb(119, 160, 146),
+        0 0 50px rgb(119, 160, 146),
+        0 0 100px rgb(119, 160, 146);
+    }
+}
+@media all and (max-width: 610px) {
+    body {
+        background-image: url("https://wallpaperaccess.com/full/8058208.jpg");
+        background-size: 150%;
+    }
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 15px;
+    }
+    .header-right {
+        float: left;
+    }
+    .main {
+        margin-top: 190px;
+    }
+    .contents {
+        color:rgb(250, 250, 250);
+        text-align: center;
+        background-color: #d3d3d3;
+        width: 400px;
+        height: 200px;
+        border: 4px solid #666969;
+        border-radius: 50px;
+        box-shadow: 
+        0 0 5px #3ca7b1,
+        0 0 25px #3ca7b1,
+        0 0 50px #3ca7b1,
+        0 0 100px #3ca7b1;
+        margin: auto;
+        display: block;
+        padding: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .contents:hover {
+        text-shadow:
+        0 0 5px #1d1d1d,
+        0 0 0 #1d1d1d,
+        0 0 0 #1d1d1d,
+        0 0 0 #1d1d1d;
+    }
+    .kata {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        overflow: auto;
+    }
+    .contents h1 {
+        font-size:32px;
+    }
+    .contents h3 {
+        font-size: 17px;
+    }
+    .contents h4 {
+        font-size: 14px;
+    }
+    .bawah {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tomb button {
+        font-style: inherit;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: rgb(138, 255, 239);
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px;
+        width: 200px;
+        transition: 0.5s;
+    }
+    button:hover {
+        color: black;
+        background-color: rgb(119, 160, 146);
+        border-color: rgb(119, 160, 146);
+        box-shadow: 
+        0 0 5px rgb(119, 160, 146),
+        0 0 25px rgb(119, 160, 146),
+        0 0 50px rgb(119, 160, 146),
+        0 0 100px rgb(119, 160, 146);
+    }
+}
+/* untuk hp */
+@media all and (max-width: 500px) {
+    body {
+        background-image: url("https://wallpaperaccess.com/full/8058208.jpg");
+        background-size: 400%;
+    }
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .logo {
+        font-size: 15px;
+        margin-top: 10px;
+        color: white;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+    .header-right {
+        float: left;
+    }
+    .header-right a{
+        font-size: 10px;
+    }
+    .main {
+        margin-top: 150px;
+    }
+    .contents {
+        color:rgb(48, 47, 47);
+        text-align: center;
+        background-color: #d3d3d3;
+        width: 180px;
+        height: 136px;
+        border: 2px solid #666969;
+        border-radius: 50px;
+        box-shadow: 
+        0 0 5px #ff6666,
+        0 0 25px #ff6666,
+        0 0 50px #ff6666,
+        0 0 100px #ff6666;
+        margin: auto;
+        display: block;
+        padding: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .kata {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        overflow: auto;
+    }
+    .contents h1 {
+        font-size:14px;
+    }
+    .contents h3 {
+        font-size: 11px;
+    }
+    .contents h4 {
+        font-size: 11px;
+    }
+    .bawah {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tomb button {
+        font-style: inherit;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: rgb(139, 255, 168);
+        background-color: rgb(102, 102, 102);
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px;
+        width: 200px;
+        transition: 0.5s;
+    }
+    button:hover {
+        color: black;
+        background-color: rgb(0, 255, 170);
+        border-color: rgb(0, 255, 170);
+        box-shadow: 
+        0 0 5px rgb(0, 255, 170),
+        0 0 25px rgb(0, 255, 170),
+        0 0 50px rgb(0, 255, 170),
+        0 0 100px rgb(0, 255, 170);
+    }
+}

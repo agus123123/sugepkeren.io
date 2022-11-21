@@ -1,0 +1,174 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/8058208.jpg");
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    margin-top: 10px;
+    height: 0;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    font-family: Andale Mono, monospace;
+}
+.logo {
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.logo:hover {
+    text-shadow: 
+    0 0 5px #d3d3d3,
+    0 0 25px #d3d3d3,
+    0 0 50px #d3d3d3,
+    0 0 100px #d3d3d3;
+}
+.logo a {
+    color: white;
+}
+.header-left {
+    float: left;
+}
+.header-right {
+    float: right;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.header-right a{
+    font-size: 20px;
+    line-height: 65px;
+    padding: 0 15px;
+    color: white;
+    display: block;
+    float: left;
+    transition: 0.5s;
+}
+.header-right a:hover {
+    color: black;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.main {
+    margin-top: 150px;
+}
+.contents {
+    color:rgb(250, 250, 250);
+    text-align: center;
+    background-color: #d3d3d3;
+    border: 4px solid #666969;
+    border-radius: 50px;
+    box-shadow: 
+    0 0 5px #c3faff,
+    0 0 25px #c3faff,
+    0 0 50px #c3faff,
+    0 0 100px #c3faff;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contents:hover {
+    text-shadow:
+    0 0 5px #1d1d1d,
+    0 0 0 #1d1d1d,
+    0 0 0 #1d1d1d,
+    0 0 0 #1d1d1d;
+}
+.kata {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: auto;
+}
+.contents h1 {
+    font-size: 40px;
+}
+.contents h3 {
+    font-size: 32px;
+}
+.contents h4 {
+    font-size: 20px;
+}
+.bawah {
+    text-align: center;
+    margin-top: 20px;
+}
+.tomb button {
+    font-style: inherit;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgb(138, 255, 239);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    transition: 0.5s;
+}
+button:hover {
+    color: black;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    box-shadow: 
+    0 0 5px aquamarine,
+    0 0 25px aquamarine,
+    0 0 50px aquamarine,
+    0 0 100px aquamarine;
+}
+
+/* untuk about.html (tentang party) */
+
+.tentangacara {
+    margin-top: 130px;
+}
+.isitentang {
+    background-color: #d3d3d3;
+    border: 4px solid #000000;
+    border-radius: 30px;
+    box-shadow: 
+    0 0 5px #c3faff,
+    0 0 25px #c3faff,
+    0 0 50px #c3faff,
+    0 0 100px #c3faff;
+    margin-left: 160px;
+    width: 900px;
+    height: 370px;
+    padding: 20px 65px;
+    overflow: auto;
+}
+.isitentang h2 {
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(20, 20, 20);
+    font-size: 35px;
+}
+.isitentang p {
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3a3a3a;
+    font-size: 20px;
+}
+.isitentang span {
+    color: red;
+}
+.isitentang img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 70px;
+    height: 70px;
+}

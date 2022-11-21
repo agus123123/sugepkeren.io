@@ -1,0 +1,72 @@
+@media all and (max-width:1200px) {
+    .isitentang {
+        margin-left: 30px;
+    }
+}
+@media all and (max-width:1100px) {
+    .isitentang {
+        margin-left: 20px;
+    }
+}
+@media all and (max-width:1000px) {
+    .isitentang {
+        margin-left: 185px;
+        width: 500px;
+        height: 370px;
+        box-shadow: 
+        0 0 5px #54ff79,
+        0 0 25px #54ff79,
+        0 0 50px #54ff79,
+        0 0 100px #54ff79;
+    }
+    .isitentang h2 {
+        font-size: 33px;
+    }
+    .isitentang p {
+        font-size: 16px;
+    }
+}
+@media all and (max-width:1000px) {
+    .isitentang {
+        margin-left: 90px;
+        width: 400px;
+        height: 370px;
+        box-shadow: 
+        0 0 5px #54ff79,
+        0 0 25px #54ff79,
+        0 0 50px #54ff79,
+        0 0 100px #54ff79;
+    }
+    .isitentang h2 {
+        font-size: 30px;
+    }
+    .isitentang p {
+        font-size: 14px;
+    }
+}
+@media all and (max-width:500px) {
+    body {
+        background-image: url("https://wallpaperaccess.com/full/8058208.jpg");
+        background-size: 400%;
+    }
+    .isitentang {
+        margin-left: 0px;
+        width: 170px;
+        height: 290px;
+        border: 1px solid black;
+        box-shadow: 
+        0 0 5px #ff6666,
+        0 0 25px #ff6666,
+        0 0 50px #ff6666,
+        0 0 100px #ff6666;
+        margin: auto;
+        display: block;
+        padding: 20px;
+    }
+    .isitentang h2 {
+        font-size: 20px;
+    }
+    .isitentang p {
+        font-size: 9px;
+    }
+}
