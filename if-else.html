@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content="Agus Purwanto">
+    <meta name="keywords" content="javascript IF ELSE">
+    <meta name="description" content="Contoh Program IF ELSE javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAM IF ELSE</title>
+</head>
+<body>
+    <h3>Contoh Program Untuk IF</h3>
+    <p>menentukan X < Y </p>
+    <p>X = 10</p>
+    <p>Y = 30</p>
+    <p id="number"></p>
+    <button onclick="pButon()">Check</button>
+    <script>
+        function pButon() {
+            let x = 10;
+            let y = 30;
+            if (x < y) {
+                document.getElementById("number").innerHTML = "10 lebih kecil dari 30";
+            }
+        }
+    </script>
+    <h3>Contoh Program untuk IF ELSE</h3>
+    <p>Menentukan bilangan ganjil/genap</p>
+    <p>Masukan bilangan <input type="number" id="pAngka"></p>
+    <p id="hasil"></p>
+    <button onclick="pTombol()">Check</button>
+    <script>
+        function pTombol() {
+            var bil = document.getElementById("pAngka").value;
+            if (bil % 2 == 0) {
+                document.getElementById("hasil").innerHTML = bil + " adalah bilangan genap";
+            } else {
+                document.getElementById("hasil").innerHTML = bil + " adalah bilangan ganjil";
+            }
+        }
+    </script>
+    <h3>Contoh Program untuk IF ELSE IF</h3>
+    <p>Nilai AGUS setiap mapel, apakah lulus / remed / pas kkm</p>
+    <p>lulus = >79</p>
+    <p>kkm = 75</p>
+    <p>remedial = 60</p>
+    <p>Masukan nilai Agus <input type="number" id="nilaiSiswa"></p>
+    <p id="demo"></p>
+    <button onclick="pNilaisiswa()">Check</button>
+    <script>
+        function pNilaisiswa() {
+            var nil = document.getElementById("nilaiSiswa").value;
+            if (nil >= 79) {
+                document.getElementById("demo").innerHTML = "lulus";
+            } else if (nil >= 75) {
+                document.getElementById("demo").innerHTML = "dipertimbangkan + nilai tugas agar lulus";
+            } else if (nil >= 60) {
+                document.getElementById("demo").innerHTML = "remedial dan perbaiki tugas";
+            } else if (nil < 60) {
+                document.getElementById("demo").innerHTML = "tidak lulus";
+            } else {
+                document.getElementById("demo").innerHTML = "nilai belum dimasukan";
+            }
+        }
+    </script>
+</body>
+</html>
